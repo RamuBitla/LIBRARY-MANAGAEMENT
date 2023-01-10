@@ -1,0 +1,104 @@
+.bookform-section>h4{
+    position: absolute;
+    top: 7rem;
+    left: 65px;
+}
+.book-section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 60px;
+}
+
+
+.bookaccount{
+    width: 30%;
+    background-color: #272727;
+    padding: 60px 30px;
+}
+
+.bookaccount h6{
+    color: white;
+    font-size: 24px;
+    padding-bottom: 20px;
+}
+.book-form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+    width: 100%;
+}
+
+.book-form input{
+    padding: 10px;
+    width: 100%;
+}
+
+.book-form button{
+    padding: 10px;
+    width: 40%;
+    font-size: 16px;
+    font-weight: bold;
+    background-color: white;
+    border: none;
+}
+
+
+/* ADDING BOOKS: */
+.bookdetail{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 65%;
+    height: 70vh;
+    background-color: #272727;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    overflow-y: scroll;
+    gap: 25px;
+   
+}
+
+.bookdetail [type="overflow"]{
+    opacity: 0;
+}
+
+.bookrecord{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 45%;
+}
+
+.bookrec{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 30px;
+    width: 100%;
+    border: 1px solid white;
+    padding: 10px;
+}
+
+.bookdata{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* align-items: center; */
+    gap: 10px;
+    padding: 10px;
+}
+
+.bookdata p{
+    color:  white;
+}
+
+.bookrec button{
+    padding: 10px 30px;
+    font-size: 16px;
+    font-weight: bold;
+}

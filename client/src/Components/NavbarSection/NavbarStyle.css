@@ -1,0 +1,38 @@
+nav{
+    background-color: #272727;
+    padding: 10px;
+}
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.navbar h1{
+    font-size: 50px;
+    font-weight: bold;
+    color: white;
+}
+
+.nav-menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 70px;
+}
+
+.nav-menu a{
+    font-size: 20px;
+    font-weight: bold;
+    color: #fff;
+}
+
+.signout-btn button{
+    padding: 8px 15px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #272727;
+    background-color: #fff;
+    border: none;
+    border-radius: 3px;
+}

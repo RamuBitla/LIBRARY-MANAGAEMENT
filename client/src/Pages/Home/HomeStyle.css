@@ -1,0 +1,96 @@
+.home-info{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 60px;
+    padding-left: 30px;
+    padding-right: 30px;
+    width: 100%;
+}
+
+.home-data{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
+    background-color: #272727;
+    color: white;
+    padding: 40px;
+    width: 30%;
+    /* padding-bottom: 40px; */
+}
+
+.upload_img{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* background-color: white; */
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    
+}
+
+.image-upload{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+}
+
+.image-upload img{
+    width: 120px;
+    height: 120px;
+}
+
+.upload_img form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 50px;
+    border-radius: 50%;
+}
+
+.upload_img img{
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.student-info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+}
+
+.extra-info{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #272727; 
+    width: 30%;
+
+}
+
+.book-info{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 35%;
+    background-color: #272727;
+    color: white;
+    height: 73vh;
+}
+
+.book-info h2{
+    text-align: center;
+}
+
+

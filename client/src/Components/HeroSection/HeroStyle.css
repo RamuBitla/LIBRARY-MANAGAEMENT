@@ -1,0 +1,41 @@
+.header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.headermain{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 15rem;
+    padding-top: 40px;
+}
+
+.headermain h1{
+    color: #272727;
+    font-weight: bold;
+}
+
+.headercenter{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 25px;
+    padding-top: 10rem;
+}
+
+.headercenter button{
+    padding: 15px 60px;
+    width: 100%;
+    background-color:#272727;
+    border: none;
+}
+
+.headercenter a{
+    color: white;
+    font-weight: bold;
+}
+

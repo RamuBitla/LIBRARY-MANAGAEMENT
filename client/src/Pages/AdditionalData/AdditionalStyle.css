@@ -1,0 +1,38 @@
+.additional{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 35px;
+    padding-bottom: 35px;
+    width: 100%;
+}
+
+.admission{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 6px;
+    width: 90%;
+}
+
+.admission input{
+    padding: 12px;
+    width: 100%;
+    outline: none;
+}
+
+.admission-button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.admission-button button{
+    padding: 10px 35px;
+    background-color: #272727;
+    color: white;
+    border: none;
+}
+

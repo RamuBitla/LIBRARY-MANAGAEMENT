@@ -1,0 +1,117 @@
+/* .image-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 15px;
+    padding: 0;
+}
+
+.user-image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    border-radius: 50%;
+}
+
+.user-image img{
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+}
+
+.image-container .plus{
+    border-radius: 50%;
+    width: 32px;
+    position: absolute;
+    top: 17rem;
+    left: 15.5rem;
+ 
+}
+
+.image-container form input[type='file']{
+    position: absolute;
+    top: 17.4rem;
+    left: 15.5rem;
+    width: 30px;
+    border-radius: 50%;
+    transform: scale(2);
+    opacity: 0;
+}
+
+.image-container form input[type='file']::-webkit-file-upload-button{
+    cursor: pointer;
+}
+
+.image-container input{
+    cursor: pointer;
+}
+
+.image-container form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.submit{
+    padding: 5px 20px;
+    background-color: white;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+ */
+
+.uploaded-image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+ .uploadImage{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   background-color: white;
+   border-radius: 50%;
+ }
+
+ .uploadImage img{
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    background-color: white;
+ }
+
+ .uploaded-image .img{
+        width: 35px;
+        height: 35px;
+        border-radius: 50%;
+        position: absolute;
+        top: 16.7rem;
+        left: 15.5rem;
+ }
+
+ .uploaded-image form input[type="file"]{
+    position:absolute;
+    top: 17.2rem;
+    width: 35px;
+    left: 15.5rem;
+    opacity: 0;
+ }
+
+ .uploaded-image form input[type="submit"]{
+    padding: 4px 10px;
+    font-weight: bold;
+    background-color: white;
+    border: none;
+    outline: none;
+    border-radius: 3px;
+ }
+
+
+
